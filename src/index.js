@@ -13,7 +13,7 @@ root.render(
   
     <Router >
       <Routes>
-        <Route path="/react-app" element={<App />} /> 
+        <Route path="/" element={<App />} /> 
         <Route path="/MovieDetails/:id" element={<MovieDetails />} />
         
       </Routes>
