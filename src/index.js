@@ -11,9 +11,9 @@ import MovieDetails from './components/MovieDetails';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-    <Router  basename={process.env.PUBLIC_URL}>
+    <Router >
       <Routes>
-        <Route path="/" element={<App />} /> 
+        <Route path="/react-app" element={<App />} /> 
         <Route path="/MovieDetails/:id" element={<MovieDetails />} />
         
       </Routes>
